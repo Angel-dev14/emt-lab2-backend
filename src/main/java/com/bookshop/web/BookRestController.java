@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = "*", exposedHeaders = "total-elements")
+@CrossOrigin(origins = "https://emt-lab2-library-frontend.herokuapp.com", exposedHeaders = "total-elements")
 @RestController
 @RequestMapping("/api/books")
 public class BookRestController {

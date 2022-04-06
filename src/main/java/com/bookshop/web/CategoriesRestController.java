@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://emt-lab2-library-frontend.herokuapp.com")
 @RestController
 @RequestMapping("/api/categories")
 public class CategoriesRestController {
